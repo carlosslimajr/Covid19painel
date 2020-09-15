@@ -1,0 +1,12 @@
+.painels{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 25px;
+}
+.maxWidth{
+  width: 900px;
+  margin-left: 50px;
+
+}

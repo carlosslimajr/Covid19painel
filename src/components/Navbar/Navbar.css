@@ -1,0 +1,32 @@
+div#navbar{
+  background-color: white;
+  width: 100px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div#navbar ul{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-bottom: 10rem;
+}
+#navbar ul li{
+  background-color: white;
+  margin: 1rem;
+  border-radius: 6px;
+  display: block;
+  padding: 14px 0;
+  transition: 200ms;
+
+}
+#navbar ul li a{
+  color: inherit;
+  
+}
+#navbar ul li:hover{
+  opacity: 0.5;
+  color: orange;
+}

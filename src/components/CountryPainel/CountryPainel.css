@@ -1,0 +1,27 @@
+#countryPainel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 250px;
+  border-radius: 16px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background-color: white;
+  animation: up 750ms ease-in;
+}
+
+@keyframes up{
+  from{
+       opacity: 0;
+       transform:translateY(15px) ;
+  }
+  to{
+       opacity: 1;
+  }
+}
+#countryPainel h4 {
+  margin: 30px 0;
+  text-align: center;
+}
+#countryPainel ul {
+  margin-left: 25px;
+}
