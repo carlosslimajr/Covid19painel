@@ -5,7 +5,7 @@ import {FaGithub,FaLinkedin,FaHome} from 'react-icons/fa'
 
 const Navbar = () => {
   return (
-    <div id="navbar">
+    <div id="navbar" className="d-none d-lg-block">
       <ul>
         <li><a href="/"><FaHome size="40px" style={{backgroundColor:'white'}}/></a></li>
         <li><a href="https://github.com/carlosslimajr/Covid19painel"><FaGithub size="40px"style={{backgroundColor:'white'}}/></a></li>

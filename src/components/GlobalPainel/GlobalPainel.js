@@ -36,37 +36,37 @@ export default class GlobalPainel extends React.Component {
       <>
         
         <div id="globalpainel" className="row">
-          <div className="totalpainel col-12 row">
+          <div className="totalpainel col-sm-7 col-10 mx-auto row">
             <div className="painelcase">
               <h5>Total de casos</h5>
               <p>{this.state.cases}</p>
             </div>
           </div>
-          <div className="mediumpainel col-6">
+          <div className="mediumpainel col-sm-6 col-10 mx-auto">
             <div className="mediumcase">
               <h5>Total de Recuperados</h5>
               <p>{this.state.recovered}</p>
             </div>
           </div>
-          <div className="mediumpainel col-6">
+          <div className="mediumpainel col-sm-6 col-10 mx-auto">
             <div className="mediumcase">
               <h5>Total de Mortos</h5>
               <p className="red">{this.state.deaths}</p>
             </div>
           </div>
-          <div className="shortpainel col-4">
+          <div className="shortpainel col-sm-4 col-10 mx-auto">
             <div className="shortcase">
               <h5>Novos casos confirmados</h5>
               <p>{this.state.newConfirmed}</p>
             </div>
           </div>
-          <div className="shortpainel col-4">
+          <div className="shortpainel col-sm-4 col-10 mx-auto">
             <div className="shortcase">
               <h5>Novos casos recuperados </h5>
               <p>{this.state.newRecovered}</p>
             </div>
           </div>
-          <div className="shortpainel col-4">
+          <div className="shortpainel col-sm-4 col-10 mx-auto">
             <div className="shortcase">
               <h5>Novas mortes confirmadas</h5>
               <p>{this.state.newDeaths}</p>

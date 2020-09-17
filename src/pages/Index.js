@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from 'reactstrap'
+import word from '../assets/img/word2.svg'
 import CountryPainel from '../components/CountryPainel/CountryPainel'
 import FilteredCountries from '../components/FilteredCountries.js/FilteredCountries'
 import Navbar from '../components/Navbar/Navbar'
@@ -10,20 +10,19 @@ import './Index.css'
 
 const Index = () => {
 
-  const [option,setOption] = React.useState({})
 
   return (
-    <div id="App" className="d-flex mb-5">
+    <div id="App" className="d-flex mb-5 col-sm-8">
       <Navbar />
       <div className="container mt-5">
-        <h3>Painel global covid-19</h3>
-        <p>Dados atualizados diariamente</p>
+        <div>
+          <h3>Painel global covid-19</h3>
+          <p>Dados atualizados diariamente</p>
+        </div>
         <GlobalPainel />
         <div className="painels">
           <CountryPainel country="brazil" name="Situação no Brasil" />
-          <div>
-            <FilteredCountries />
-          </div>
+          <FilteredCountries />
         </div>
 
       </div>

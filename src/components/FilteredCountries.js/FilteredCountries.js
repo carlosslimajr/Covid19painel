@@ -27,7 +27,7 @@ export default class FilteredCountries extends React.Component {
     (this.state.filteredList && this.state.filteredList.sort((a, b) => b.TotalDeaths - a.TotalDeaths))
 
     return (
-      <div id="filteredcountries">
+      <div id="filteredcountries" >
         <div>
           <h4>Países mais afetados <span>-Ordenados por numero de morte.</span></h4>
         </div>

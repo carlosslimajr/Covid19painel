@@ -6,5 +6,11 @@
   list-style-type: none;
 }
 body{
-  background: #F6F3FD;
+  background: #f0f0f7;
+  background-image: url('assets/img/word3.svg');
+  background-size: cover;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: right;
 }
+
