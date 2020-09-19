@@ -6,13 +6,21 @@ import Navbar from '../components/Navbar/Navbar'
 import GlobalPainel from '../components/GlobalPainel/GlobalPainel'
 import './Index.css'
 
-
-
 const Index = () => {
 
+  React.useEffect(() => {
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+         const modal = document.getElementById("loader");
+         modal.style.display = "none";
+      }, 1000);
 
+    })
+  }, [])
   return (
-    <div id="App" className="d-flex mb-5 col-sm-8">
+
+    <div id="App" className="d-flex mb-5 sizecontainer">
+
       <Navbar />
       <div className="container mt-5">
         <div>
@@ -27,6 +35,10 @@ const Index = () => {
 
       </div>
 
+      <div id="loader" >
+        <span className="spanloader"></span>
+
+      </div>
     </div>
   )
 }
